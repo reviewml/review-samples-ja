@@ -1,2 +1,3 @@
 # review-samples
-sample repositories for Re:VIEW
+
+A collection of sample documents for Re:VIEW.
