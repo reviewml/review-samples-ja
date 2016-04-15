@@ -1,0 +1,16 @@
+bookname: book
+language: ja
+booktitle: imgtable sample
+aut: Masayoshi Takahashi
+date: 2016-04-14
+history: [["2016-04-14 v1.0.0版発行"]]
+rights: (C) 2016 Masayoshi Takahashi
+
+htmlext: xhtml
+stylesheet: ["style.css"]
+htmlversion: 5
+toc: true
+toclevel: 2
+secnolevel: 3
+coverimage: cover.jpg
+texstyle: reviewmacro
