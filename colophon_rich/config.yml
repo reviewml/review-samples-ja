@@ -206,4 +206,3 @@ colophon: true
 # font_ext: ["ttf", "woff", "otf"]
 
 texstyle: reviewmacro
-debug: true
