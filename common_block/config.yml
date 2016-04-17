@@ -4,8 +4,6 @@
 # 生成されます。
 # このファイルはUTF-8エンコーディングで記述してください。
 
-review_version: 2.0
-
 # ブック名(ファイル名になるもの。ASCII範囲の文字を使用)
 bookname: book
 # 記述言語。省略した場合はja
@@ -13,46 +11,24 @@ language: ja
 # 書名
 booktitle: Re:VIEWサンプル書籍
 # 固有IDに使用するドメイン。省略した場合は時刻に基づくランダムUUIDが入る
-urnid: urn:uid:http://tatsu-zine.com/books/review-sample-book/1.0.0/
+# urnid: urn:uid:http://tatsu-zine.com/books/review-sample-book/1.0.0/
 # ISBN。省略した場合はurnidが入る
 # isbn: null
 # 著者名。["高橋征義", "John Doe"] のように配列を使うことで複数指定可
-aut:
-  - 高橋征義
-  - 高橋その２
+aut: 高橋征義
 # 出版社。配列書式で複数指定可能
-pbl:
-  - 達人出版会
-prt:
-  - 達人印刷
-edt:
-  - 編集一郎
-ill:
-  - イラスト二郎
-  - イラスト三郎
-dsr:
-  - デザイン四郎
-cov:
-  - カバー五郎
-trl:
-  - 翻訳六郎
-  - 翻訳七郎
-csl:
-  - 監修八郎
-contact: 東京都渋谷区渋谷東1-2-3
-
+pbl: 達人出版会
+# 編集者。配列書式で複数指定可能
+# edt: 高橋征義
 # 刊行日。YYYY-MM-DD形式。省略した場合は本日の日付
 date: 2011-08-03
 # 発行年月。YYYY-MM-DD形式による配列指定。省略した場合はdateを使用する
 # 複数指定する場合は次のように記述する
 # [["初版第第1刷の日付", "初版第第2刷の日付"], ["第2版第1刷の日付"]]
 # 日付の後ろを空白文字で区切り、任意の文字列を置くことも可能。
-history:
-         -
-           - "2016-04-17 v1.0.0版発行"
-           - "2016-04-18 v1.1.0版発行"
+history: [["2011-08-03 v1.0.0版発行"]]
 # 権利表記
-rights: (C) 2016 Masayoshi Takahashi
+rights: (C) 2011 Masayoshi Takahashi
 
 # 以下はオプション(autと同じように配列書式で複数指定可能)。
 # adp: 異なるメディア向けに作り直した者

@@ -73,7 +73,7 @@ rights: (C) 2016 Masayoshi Takahashi
 # coverage: 内容の範囲や領域
 
 # htmlext: HTMLファイルの拡張子(省略した場合はhtml)
-htmlext: xhtml
+# htmlext: html
 # CSSファイル(配列で複数指定可、yamlファイルおよびRe:VIEWファイルを置いたディレクトリにあること)
 stylesheet: ["style.css"]
 
