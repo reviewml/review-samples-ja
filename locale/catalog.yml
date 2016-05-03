@@ -1,0 +1,16 @@
+PREDEF:
+  - preface.re
+
+CHAPS:
+  - "あいさつ":
+    - ch01.re
+    - ch02.re
+  - "おしまい":
+    - ch03.re
+
+APPENDIX:
+ - app01.re
+
+POSTDEF:
+ - post01.re
+
