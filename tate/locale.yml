@@ -1,0 +1,7 @@
+ja:
+  part: 第%pJ部
+  chapter: 第%pJ章
+  format_number: "%pJ ・ %pJ"
+  format_number_header: "%pJ ・ %pJ:"
+  format_number_without_chapter: "%pJ"
+  format_number_header_without_chapter: "%pJ:"

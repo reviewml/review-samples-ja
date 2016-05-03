@@ -1,0 +1,38 @@
+review_version: 2.0
+bookname: book
+language: ja
+booktitle: Re:VIEW 縦書きサンプル書籍
+aut: ["高橋征義"]
+
+date: 2016-05-03
+history: [["2016-05-03"]]
+rights: (C) 2016 Masayoshi Takahashi
+
+urnid: urn:uid:http://reviewml.org/review-samples/tate
+
+htmlext: html
+stylesheet: ["style.css"]
+
+epubversion: 3
+htmlversion: 5
+
+toclevel: 3
+secnolevel: 2
+toc: true
+
+cover: cover.html
+coverimage: cover.jpg
+
+colophon: true
+direction: "rtl"
+
+epubmaker:
+  htmlext: xhtml
+
+texdocumentclass: ["utbook", "uplatex,oneside"]
+texstyle: reviewmacro
+
+pdfmaker:
+  colophon: true
+
+debug: true
